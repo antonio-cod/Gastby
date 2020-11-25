@@ -1,0 +1,34 @@
+@import "home";
+@import "areas";
+@import "units";
+@import "team";
+@import "news_page";
+
+$color: #4a4a4a;
+
+%box-detail {
+  background: url("../images/bg_detail_top.png"),
+    url("../images/bg_detail_middle.png"),
+    url("../images/bg_detail_bottom.png");
+  background-size: 100%, 100% 51%, 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top, 0px 297px, left bottom;
+  padding: 227px 100px;
+  height: 1030px;
+  color: $color;
+
+  @media screen and (max-width: 1000px) {
+    background-size: 100%, 100% 76%, 100%;
+    background-position: top, 0px 49%, left bottom;
+    height: auto;
+  }
+
+  @media screen and (max-width: 590px) {
+    background-size: 100%, 100% 87%, 100%;
+  }
+
+  @media screen and (max-width: 490px) {
+    background-size: 100%, 100% 93%, 100%;
+  }
+
+}

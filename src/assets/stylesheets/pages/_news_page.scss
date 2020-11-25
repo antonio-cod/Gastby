@@ -1,0 +1,72 @@
+.news_page {
+  background: black url("../images/bg-team.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  padding: 50px;
+  padding-top: 200px;
+  font-size: 1.2em;
+
+  @media screen and (max-width: 750px) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  @media screen and (max-width: 580px) {
+    padding-top: 290px;
+  }
+
+  p {
+    margin: 0 0 15px;
+    text-align: justify;
+    text-indent: 40px;
+  }
+
+  ul, ol {
+    padding-left: 60px;
+  }
+
+  ul {
+    list-style: inside;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    text-align: left;
+    font-weight: bold;
+
+    @media screen and (max-width: 750px) {
+      font-size: 1.4em;
+    }
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  h2,
+  h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    word-break: break-word;
+  }
+
+  .container {
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+
+    img {
+      max-width: 600px;
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  blockquote {
+    font-style: italic;
+    padding-left: 20%;
+  }
+}

@@ -1,0 +1,47 @@
+.contact {
+  background: #404040 url("../images/bg-contact.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  padding: 50px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  color: #fff;
+
+  @media screen and (max-width: 750px) {
+    padding-left: 25px;
+    padding-right: 25px;
+
+    p {
+      font-size: 0.7em;
+    }
+  }
+
+  * {
+    font-family: "Soleto", Helvetica, Arial, sans-serif;
+  }
+
+  iframe,
+  .input,
+  .textarea,
+  .button {
+    border-radius: 10px;
+  }
+
+  .input,
+  .textarea {
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
+
+  .button {
+    color: #fff;
+    background: transparent;
+  }
+
+}

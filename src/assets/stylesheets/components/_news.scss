@@ -1,0 +1,99 @@
+$color: #4a4a4a;
+
+.news {
+  background: black url("../images/bg-news.jpg");
+  margin-top: -205px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  padding: 50px;
+  padding-top: 200px;
+  font-size: 1.2em;
+
+  @media screen and (max-width: 750px) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  @media screen and (max-width: 580px) {
+    padding-top: 290px;
+  }
+
+  %fontFamily {
+    font-family: "aileronsregular", Helvetica, Arial, sans-serif;
+    letter-spacing: -10px;
+    font-size: 1.7em;
+
+    @media screen and (max-width: 750px) {
+      letter-spacing: -8px;
+      font-size: 1.4em;
+    }
+  }
+
+  &-box {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0px -16px 34px -17px rgba(0, 0, 0, 0.32),
+      0px 14px 17px -10px rgba(0, 0, 0, 0.58);
+    margin: 10px;
+    margin-top: 50px;
+    justify-content: space-between;
+
+    @media screen and (max-width: 750px) {
+      margin-top: 10px;
+    }
+  }
+
+  button {
+    background: $color;
+    @extend %fontFamily;
+    padding: 10px 5px;
+    color: #fff;
+    margin-top: 15px;
+    border: 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    letter-spacing: -5px;
+
+    img {
+      height: 32px;
+    }
+
+    @media screen and (max-width: 750px) {
+      font-size: 1.3em;
+      padding: 4px 3px;
+      margin-top: 3px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $color;
+    cursor: pointer;
+  }
+
+
+  h3 {
+    @extend %fontFamily;
+    line-height: 1em;
+  }
+
+  p {
+    font-size: 1em;
+    text-align: justify;
+    padding: 5px;
+    padding-top: 10px;
+
+    @media screen and (max-width: 750px) {
+      font-size: 0.8em;
+    }
+  }
+
+  h3,
+  button,
+  p {
+    cursor: pointer;
+  }
+}

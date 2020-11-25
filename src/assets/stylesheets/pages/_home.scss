@@ -1,0 +1,26 @@
+/*.page-home {
+
+  h1 {
+    color: black;
+  }
+
+  .header .container {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 750px) {
+      flex-direction: column;
+    }
+
+    @media screen and (max-width: 580px) {
+      align-items: self-start;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .news {
+      padding-top: 200px;
+    }
+  }
+}
+*/

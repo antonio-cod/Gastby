@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "paths": {
+      "@src": ["./src/*"],
+      "@components": ["./src/components/*"],
+      "@layouts": ["./src/layouts/*"],
+      "@pages": ["./src/pages/*"],
+      "@assets": ["./src/assets/*"],
+      "@stylesheets": ["./src/assets/stylesheets/*"]
+    }
+  }
+}

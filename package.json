@@ -1,0 +1,60 @@
+{
+  "name": "sls-advogados",
+  "description": "Site da SLS Advogados",
+  "version": "0.1.2",
+  "author": "Kiver Teixeira",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.19.22",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-netlify-cms": "^4.1.40",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-resolve-src": "^2.0.0",
+    "gatsby-plugin-sass": "^2.1.29",
+    "gatsby-remark-relative-images": "^0.3.0",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-remark": "^2.6.53",
+    "netlify-cms-app": "^2.11.26",
+    "node-sass": "^4.13.1",
+    "node-sass-glob-importer": "^5.3.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-awesome-slider": "^3.1.2",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-id-swiper": "^2.4.0",
+    "react-slick": "^0.25.2",
+    "swiper": "^5.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-import-helpers": "^1.0.2",
+    "eslint-plugin-react": "^7.18.3"
+  },
+  "keywords": [
+    "gatsby",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "lint": "Get started linting your code with Eslint and stylelint",
+    "format": "Get started formatting your code with Eslint, Prettier, and stylelint",
+    "start": "yarn develop",
+    "serve": "gatsby serve",
+    "test": "echo 'Write tests! -> https://gatsby.dev/unit-testing'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colbyfayock/gatsby-starter-sass"
+  },
+  "bugs": {
+    "url": "https://github.com/colbyfayock/gatsby-starter-sass/issues"
+  }
+}
