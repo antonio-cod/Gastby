@@ -17,7 +17,7 @@ const Atuacao = () => {
             sed consequuntur, architecto dignissimos. Tempora dolor
              atque reprehenderit, explicabo magni delectus.
           </p>
-          <div className="columns">
+          <div className=" ">
           <a href="#">Learn more</a>
           <a href="#">Learn more</a>
           <a href="#">Learn more</a>

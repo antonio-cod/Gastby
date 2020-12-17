@@ -1,58 +1,48 @@
 import React from "react";
 import Container from "./Container";
-import Areas from "@components/Areas";
-import Atuacao from "@components/Atuacao";
-import Noticias from "@components/Noticias";
+
+import Layout from"@components/Layout";
+
+
 
 const Conteudo = () => {
   return (
     <div className="conteudo">
-      <Container>
-        
+        <Container >
+         
         <h2>QUEM SOMOS</h2>
-      <h3>Azevedo Advocacia</h3>
         <p>     
-          A Azevedo tem como foco a advocacia empresarial e do agronegócio,
-          que transita por entre as diversas áreas do direito (administrativo, 
-          agrário, ambiental, cível, criminal, imobiliário, tributário, trabalhista entre outros),
-           e Se destaca pela objetividade, modernidade e eficiência dos métodos de trabalho,
-            tanto perante os órgãos administrativos, como judiciais.
+        O Azevedo Advogados Associados é um escritório multidisciplinar e dispõe de uma infraestrutura
+        completa e moderna de atendimento aos seus clientes. Estrategicamente sediado em Tangará da
+         Serra, Mato Grosso, o escritório está localizado na região central da cidade, na Rua José 
+         Cândido Melhorança, n° 275-N.  Considerando o comportamento 
+          da sociedade moderna, e a necessidade de adequar a esse novo perfil de clientes, o Azevedo
+           Advogados Associados oferece atendimento presencial, bem como digital, através de suas redes 
+           ociais e site.
+
        </p>
        <p>
-         Assume com os seus clientes 
-          o compromisso pelo comprometimento, seriedade, transparência e ética na assessoria prestada,
-         eis que envolve toda a equipe, e dessa forma, revela sua maior assertividade e eficiência na 
-        prestação de serviços. 
+       O escritório Azevedo Advogados Associados destaca-se por sua 
+         atuação diversificada e por oferecer serviços jurídicos especializados em benefício de seus
+          clientes. O escritório é reconhecido ainda por sua agilidade e excelência na prestação de 
+          serviços jurídicos e por manter um relacionamento estreito com seus clientes, o que nos 
+          permite desenvolver relacionamentos sólidos e bem sucedidos.
       </p>
        <p>
-         Atualmente a Azevedo adivocacia atua com estrutura física estratégica na
-        cidade de Tangará da Serra/MT, a fim de agregar eficiência e otimizar os custos operacionais dos 
-        trabalhos desenvolvidos, tudo pautado no padrão global de administração para o melhor desempenho nos 
-         trabalhos e realização pessoal dos seus parceiros e colaboradores. Desse modo, por seu perfil moderno
-        de advocacia a Azevedo presta atendimento de excelência para assessorar uma gestão confiável e eficiente
-         à demanda de todos os seus clientes
+          Considerando o comportamento 
+          da sociedade moderna, e a necessidade de adequar a esse novo perfil de clientes, o Azevedo
+           Advogados Associados oferece atendimento presencial, bem como digital, através de suas redes 
+           ociais e site.
+       
         </p>
         
-     
-       
-        
-      </Container>
-      <div>
-      <h2>ESCRITÓRIO</h2>
-        <Areas />
-        <h2>ÁREA DE ATUAÇÃO</h2>
-        <Atuacao />
-      
-      <div className="contenedor">
-      <h2>ÁREA DE ATUAÇÃO</h2>
-        <Noticias />
-      </div>
+        </Container>
         </div>
-     
-     
-    </div>
-   
+          
+       
+       
   );
+
 };
 
 export default Conteudo;

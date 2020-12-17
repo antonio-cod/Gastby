@@ -6,11 +6,14 @@ import imageImg1 from "@assets/images/1.jpg";
 import imageImg3 from "@assets/images/3.jpg";
 
 
+
 const Areas = () => {
   return (
+   
     <div className="columns slider-areas">
-     
+      <title>ÁREAS DE ATUAÇÃO</title>
       <div className="column">
+     
         <Link to="">
           <img src={imageImg1} alt="" />
         </Link>
@@ -44,6 +47,7 @@ const Areas = () => {
      </p>
       </div>
     </div>
+    
   );
 };
 

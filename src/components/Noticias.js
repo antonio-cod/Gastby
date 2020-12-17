@@ -1,5 +1,6 @@
 import React from "react";
-import Container from "./Container";
+
+
 
 const Noticias = () => {
     return(
@@ -8,7 +9,9 @@ const Noticias = () => {
             <div className="informacao">
             
           <h2 className="titulo">Últimas notícias jurídicas</h2>
-          <div className="container-arquivo">
+          
+          <div className="contenedor-arquivo">
+           
             <div class="arquivo">
             <img className=" " alt="FOTO"></img>
                 <h3>Twitter diz que vai recorrer de decisão do STF que 
@@ -45,15 +48,12 @@ const Noticias = () => {
                      a exclusão das contas deve ocorrer independentemente do acesso a essas.</p>
                 <a href="#">SAIBA MAIS</a>
             </div>
-
-          </div>
+            </div>
+            </div>
           
-      </div>
-  
+        </div>  
 
-            
-
-        </div>
+        
 
     )
 } 

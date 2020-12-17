@@ -17,17 +17,17 @@
     padding-top: 290px;
   }
 
-  &.agro {
-    background: black url("../images/bg-areas-agro.png");
-  }
+  // &.agro {
+  //   background: black url("../images/bg-areas-agro.png");
+  // }
 
-  &.saude {
-    background: black url("../images/bg-areas-saude.png");
-  }
+  // &.saude {
+  //   background: black url("../images/bg-areas-saude.png");
+  // }
 
-  &.industria-comercio {
-    background: black url("../images/bg-areas-industria-comercio.png");
-  }
+  // &.industria-comercio {
+  //   background: black url("../images/bg-areas-industria-comercio.png");
+  // }
 
   p {
     margin: 5px;
@@ -48,12 +48,12 @@
     text-align: center;
   }
 
-  h2,
-  h3 {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    word-break: break-word;
-  }
+ 
+  // h3 {
+  //   margin-top: 0.5em;
+  //   margin-bottom: 0.5em;
+  //   word-break: break-word;
+  // }
 
   .container {
     @extend %box-detail;

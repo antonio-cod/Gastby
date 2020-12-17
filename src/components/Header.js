@@ -3,8 +3,7 @@ import { Link } from "gatsby";
 
 import AdvLogo from "@assets/images/adv.svg";
 import Container from "@components/Container";
-
-
+// import Menuzin from "@assets/images/bars-solid.svg";
 
 const Header = () =>{
   return(
@@ -13,7 +12,8 @@ const Header = () =>{
 
       <nav>
       <Container >
-          <section className="container nav">
+        
+          <div className="container nav">
          
         <div className="adv">
             <AdvLogo className="nav"/>
@@ -30,10 +30,10 @@ const Header = () =>{
                <a href="#">CONTATO</a>
             </div>
             <div className="hamburguer">
-                 <i className="fas fa-bars"></i>
+            <img src="assets/images/bars-solid.svg" alt="Menu"/>
             </div>
             
-          </section>
+          </div>
           </Container>
       </nav>
       
@@ -44,7 +44,6 @@ const Header = () =>{
 }
 export default Header;
 
-<script src="https://kit.fontawesome.com/35a0b6099f.js" crossorigin="anonymous"></script>
 
 
 

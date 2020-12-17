@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <Container id="contato">
-        <h1 className="title has-text-white text-center">Contato</h1>
+        <h1 className="title  text-center">CONTATO</h1>
         <div className="columns">
           {/* <!-- Start Google Map --> */}
           <div className="column">
@@ -84,10 +84,10 @@ const Contact = () => {
       </Container>
       <div className="text-center">
         <p>
-          &copy; Copyright <b>SLS Advogados {new Date().getFullYear()}</b>. Todos direitos
-          reservados.
+          &copy; Rua José Cândito Melhorança 275-N Centro <b>- Tangará da serra/MT {new Date().getFullYear()}.</b>
+          
         </p>
-        <p>AppCE - Aplicativos e CIA</p>
+        
       </div>
     </div>
   );
