@@ -1,17 +1,18 @@
 import React from "react";
-
+import Container from "./Container";
 
 
 const Noticias = () => {
     return(
+        
         <div className="noticias">
-            
+           
             <div className="informacao">
             
-          <h2 className="titulo">Últimas notícias jurídicas</h2>
+          <h2 className="titulo">ÚLTIMAS NOTÍCIAS JURÍDICAS</h2>
           
           <div className="contenedor-arquivo">
-           
+          
             <div class="arquivo">
             <img className=" " alt="FOTO"></img>
                 <h3>Twitter diz que vai recorrer de decisão do STF que 
@@ -23,11 +24,10 @@ const Noticias = () => {
                     caiba ao Twitter defender a legalidade do conteúdo postado ou
                      a conduta das pessoas impactadas pela referida ordem,
                       a empresa considera a determinação ou a conduta das pessoas
-                       impactadas pela referida ordem, a empresa considera.
-
-</p>
+                       impactadas pela referida ordem, a empresa considera.</p>
                 <a href="#">SAIBA MAIS</a>
             </div>
+           
             <div className="arquivo">
             <img className=" " alt="FOTO"></img>
                 <h3>Ministro cobra informações de bancos oficiais e Secom sobre investimento em redes sociais.</h3>
@@ -48,12 +48,11 @@ const Noticias = () => {
                      a exclusão das contas deve ocorrer independentemente do acesso a essas.</p>
                 <a href="#">SAIBA MAIS</a>
             </div>
+            
             </div>
+    
             </div>
-          
-        </div>  
-
-        
+        </div> 
 
     )
 } 

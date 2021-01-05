@@ -7,41 +7,62 @@ import Container from "@components/Container";
 
 const Header = () =>{
   return(
-    
-<header className="header">
-
-      <nav>
+    <header className="header">
       <Container >
-        
-          <div className="container nav">
          
-        <div className="adv">
+        {/* <div className="adv">
             <AdvLogo className="nav"/>
-          
-            </div>
-              <div className="enlaces-header">
-               <a>
-               <Link to="/escritorio/">INÍCIO</Link>
-               </a>
-               <a href="#">QUEM SOMOS</a>
-               <a href="#">ÁREAS DE ATUAÇÃO</a>
-               <a href="#">EQUIPE</a>
-               <a href="#">NOTÍCIAS</a>
-               <a href="#">CONTATO</a>
-            </div>
-            <div className="hamburguer">
+        </div> */}
+        {/* <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div> */}
+             
+                <ul>
+               <li>
+               <Link to="/">INÍCIO</Link>
+               </li>
+
+               <li>
+               <Link to="/">QUEM SOMOS</Link>
+               </li>
+
+               <li>
+               <Link to="/">ÁREA ATUAÇÃO</Link>
+               </li>
+
+               <li>
+               <Link to="/">EQUIPE</Link>
+               </li>
+
+               <li>
+               <Link to="/">NOTÍCIAS</Link>
+               </li>
+
+               <li>
+               <Link to="/">CONTATO</Link>
+               </li>
+
+               </ul>
+             
+            {/* <div className="hamburguer">
             <img src="assets/images/bars-solid.svg" alt="Menu"/>
-            </div>
+            </div> */}
             
-          </div>
+        
           </Container>
-      </nav>
+     
       
       </header>
       
-  )
+  );
 
-}
+};
+
+
+
 export default Header;
 
 

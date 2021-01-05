@@ -1,7 +1,7 @@
 
 .atuacao-header{
-    width: 100%;
-    height: 600px;
+    width: 90%;
+    max-width: 980px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,6 +18,15 @@
    
     margin: 0 0 0 30px;
    
+}
+
+.textos-header h2{
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: 100px;
 }
 
 .atuacao-header p{
@@ -50,7 +59,7 @@
     }
 
     .atuacao-header>img{
-        width: 40px;
+        width: 400px;
     }
 
     .textos-header {

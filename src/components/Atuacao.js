@@ -5,12 +5,15 @@ import imageCard from "@assets/images/es-1.jpg"
 const Atuacao = () => {
  return(
    
-  
+         <div className="textos-header">
+            <h2 >ÁREAS DE ATUAÇÃO</h2>
+            
         <div className="atuacao-header">
+        
         <img src={imageCard} alt="Imagem"/>
        
       <div className="textos-header">
-         <h1>Our creativity is your cusses</h1>
+         <h2>Our creativity is your cusses</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
              velit aperiam 
             omnis doloribus quos ea exercitationem animi, repudiandae quam 
@@ -24,10 +27,11 @@ const Atuacao = () => {
           
           </div>
       </div>
+      
     </div>
     
+    </div>
     
-
 
 )
 

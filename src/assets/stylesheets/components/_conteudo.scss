@@ -1,31 +1,36 @@
 .conteudo{
-   
-    @media screen and (max-width: 580px) {
-      padding-top: 290px;
-    }
-    a {
-      margin: 28px 0 0 0;
-      width: 130px;
-      display: inline-block;
-      background: #0d0e0d;
-      text-align:center;
-      color: #fff;
-      padding: 12px;
-      text-decoration: none;
-      font-weight: 40;
-      text-transform: uppercase;
-      font-size: 14px;
-      border-radius: 5px;
-    }
+  
+ 
+  // background: none;
+  margin: 50px;
+ 
+  a{
+    margin: 28px 0 0 0;
+    width: 130px;
+    display: center;
+    background: #0d0e0d;
+    text-align:center;
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: 40;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+      }
+    
     p {
       margin: 0 0 15px;
-      text-align: center;
+      text-align: justify;
     }
   
     h2 {
       font-size: 2.2em;
       text-align: center;
       font-weight: bold;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      height: 100px;
     }
   
     h3 {
@@ -36,9 +41,4 @@
         
     }
   
-    h2,
-    h3 {
-      margin-top: 0.5em;
-      margin-bottom: 0.5em;
-    }
   }

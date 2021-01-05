@@ -1,7 +1,9 @@
 import React from "react";
+import Container from "./Container";
 
 const Equipe = () => {
     return(
+       
         <div className="equipe">
             
             <div className="equipe-ground">
@@ -37,7 +39,7 @@ const Equipe = () => {
             
             </div>
             
-       
+          
        
 
     )
