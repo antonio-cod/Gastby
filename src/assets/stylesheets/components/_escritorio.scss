@@ -1,10 +1,13 @@
 .escritorio{
     background: #e4dfdf;
-    display: center;
+     display: center;
     text-align: center;
-    margin: 0 30px;
+    margin: 0px;
 }
-
+.escritorio h2 {
+    font-size: 35px; 
+    margin-bottom: 50px;
+  }
 .escritorio-areas>img{
     display: center;
     width: 65%;

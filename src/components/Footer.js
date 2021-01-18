@@ -5,10 +5,9 @@ import Rodape from "components/Rodape";
 
 const Footer = () => {
   return (
-    
+   
       <Rodape />
-    
-    
+  
    
   );
 };

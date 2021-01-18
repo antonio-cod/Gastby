@@ -3,34 +3,25 @@ import Container from "./Container";
 import imageCard from "@assets/images/es-1.jpg"
 
 const Atuacao = () => {
- return(
-   
+ return(        
+         <div className="atuacao-header">
+                 
+         <img src={imageCard} alt="Imagem"/>
          <div className="textos-header">
-            <h2 >ÁREAS DE ATUAÇÃO</h2>
-            
-        <div className="atuacao-header">
-        
-        <img src={imageCard} alt="Imagem"/>
-       
-      <div className="textos-header">
-         <h2>Our creativity is your cusses</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-             velit aperiam 
-            omnis doloribus quos ea exercitationem animi, repudiandae quam 
-            sed consequuntur, architecto dignissimos. Tempora dolor
-             atque reprehenderit, explicabo magni delectus.
+         <h2>ÁREAS DE ATUAÇÃO</h2>
+          <p>Atualmente a Azevedo atua com estrutura física estratégica 
+             na cidade de Tangará da Serra/MT, a fim de agregar eficiência e 
+             otimizar os custos operacionais dos trabalhos desenvolvidos
           </p>
-          <div className=" ">
-          <a href="#">Learn more</a>
-          <a href="#">Learn more</a>
-          <a href="#">Learn more</a>
-          
+          <div className="atuacao-button ">
+          <a href="#">AGRONEGÓCIO</a>
+          <a href="#">EMPRESARIAL</a>
+          <a href="#">SUCESSÕES</a>
           </div>
       </div>
-      
+            
     </div>
-    
-    </div>
+   
     
 
 )

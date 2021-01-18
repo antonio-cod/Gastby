@@ -9,40 +9,49 @@ import AdvLogo from "@assets/images/adv.svg";
 const Rodape = () =>{
 
  return (
-   
-         <footer>
-          {/* <h1 className="text-center">SOCIOS</h1>  */}
-          <div className="partFooter">
-                
-         </div>
-
-       <div className="partFooter">
-           <h4>Advogado</h4>
-            <div className="partFooterImg">
+       
+ <div className="rodape"> 
+   <footer>
+          <div className="partFooter"> 
+           <h4>REDES SOCIAIS</h4>
+           </div> 
+         <div className="partFooter">
+           <h4>ADVOGADO</h4>
+           <div className="partFooterImg">
                 <img src={ImageADV1} alt=""/>
                 <div>
                 <a href="#">Dr. Flávio Azevedo</a>
+                <div>
+                <span>Socio Diretor</span>
                 </div>
             </div>
-      </div>
+            </div>
+            </div>
 
-      <div className="partFooter">
-        <h4>Advogado</h4>
-          <div className="partFooterImg">
+         <div className="partFooter">
+           <h4>ADVOGADO</h4>
+           <div className="partFooterImg">
              <img src={ImageADV2} alt=""/>
-             <div >
+           <div >
              <a href="#">Dr. Rafael Grilo</a>
-             </div>
-          </div>
-      </div>
-      
-          <div className="partFooter"> 
-             <h4>Redes Sociais</h4>
-               <Social /> 
+             <div>
+                <span>Socio Diretor</span>
+                </div>
            </div>
-    
-   </footer>
-    
+           </div>
+           </div>
+
+           <div className="partFooter">
+             <h4>CONTATO</h4>
+              <div>
+              <span className=" ">(65) 33261443</span>
+              </div>
+              <div>
+              <span className="">flavio@adv-azevedo.com.br</span>
+              </div>
+              </div>
+           </footer>
+           </div>
     );
 };
 export default Rodape;

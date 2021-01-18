@@ -11,11 +11,8 @@ import imageImg3 from "@assets/images/3.jpg";
 const Areas = () => {
   return (
     
-    <div>
-      <h2 className="titulo text-center">O ESCRITÓRIO</h2>
-  
        <div className="escritorio">
-       
+       <h2 className="titulo-geral">O ESCRITÓRIO</h2>
         <div className="escritorio-areas">
           <img src={imageImg1} alt="IMAGEM" />
            </div>
@@ -35,7 +32,7 @@ const Areas = () => {
          <img src={imageImg2} alt="IMAGEM" /> 
        </div>
       </div>
-    </div>
+    
    
   );
 };

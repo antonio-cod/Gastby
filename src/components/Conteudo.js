@@ -4,7 +4,6 @@ import Container from "./Container";
 import Layout from"@components/Layout";
 
 
-
 const Conteudo = () => {
   return (
     <div className="conteudo">

@@ -1,48 +1,53 @@
 
 .atuacao-header{
-    width: 90%;
-    max-width: 980px;
+    // margin: 30px; 
+    margin: 80px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 90%;
+     max-width: 980px;
     
 
 }
 .atuacao-header>img{
-    width: 550px;
+    width: 50%;
+    margin: 15px;
+    padding: 15px;
     
 }
 
 
 .textos-header{
-   
-    margin: 0 0 0 30px;
-   
+    margin: 20px;
+    
+    // max-width: 980px;
+    
 }
 
 .textos-header h2{
     font-size: 2.2em;
+    display: inline-block;
     text-align: center;
     font-weight: bold;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    height: 100px;
+    height: 80px;
 }
 
 .atuacao-header p{
     font-weight: 100;
     margin-top: 14px;
     color: #5D6678;
+    display: justify;
 }
 
-.atuacao-header a{
-    margin: 28px 0 0 0;
-    width: 130px;
+.atuacao-button a{
+    margin: 10px;
+    width: 100px;
     display: inline-block;
     background: #0d0e0d;
-    text-align:center;
+    text-align: center;
     color: #fff;
-    padding: 12px;
+    padding: 10px;
     text-decoration: none;
     font-weight: 40;
     text-transform: uppercase;
@@ -59,7 +64,7 @@
     }
 
     .atuacao-header>img{
-        width: 400px;
+        width: 700px;
     }
 
     .textos-header {

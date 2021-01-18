@@ -24,6 +24,14 @@
 .partFooter a:hover{
     color: #de1f1f;
 }
+
+.partFooter span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: center;
+}
 .svg{
    
     width: 150px;
@@ -48,4 +56,22 @@
     display: inline-block;
     text-align: center;
     margin-right: 5px;
+}
+//Responsivel
+@media (max-width: 700px) {
+
+    .partFooter {
+        flex-direction: column;
+        text-align: center;
+    }
+    .partFooter{
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+    footer{
+        justify-content: space-evenly;
+    }
+
+   
 }
