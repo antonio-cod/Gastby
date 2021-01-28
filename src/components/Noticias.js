@@ -7,11 +7,11 @@ const Noticias = () => {
     return(
         
         <div className="noticias">
-             
+           
           <div className="informacao">
           <h2>ÚLTIMAS NOTÍCIAS JURÍDICAS</h2>
           <div className="cards">
-            
+                
             <div className="card">
                <img src={imageNot} alt="FOTO"></img>
             <div className="content">
@@ -25,12 +25,12 @@ const Noticias = () => {
                     a conduta das pessoas impactadas pela referida ordem,
                     a empresa considera a determinação ou a conduta das pessoas
                     impactadas pela referida ordem, a empresa considera.</p> 
-                  <div className="info">
-                     <a href="#">SAIBA MAIS</a>
-                </div>
-            </div>
+                    <div className="info">
+                     <a  href="#">SAIBA MAIS</a>
+                     </div>
             </div> 
-                     
+            </div>   
+                          
             <div className="card">
                 <img src={imageNot} alt="FOTO"></img>
             <div className="content">
@@ -42,12 +42,12 @@ const Noticias = () => {
                     news, que apura ataques e ameaças a integrantes do STF e a disseminação de
                     informações falsas. A TV Globo 
                     apurou que a ordem do ministro envolve Banco Nacional do Desenvolvimento.</p>
-                 <div className="info">
+                    <div className="info">
                    <a href="#">SAIBA MAIS</a>
                 </div> 
             </div>
-            </div>
-  
+            </div>         
+       
             <div className="card">
             <img src={imageNot} alt="FOTO"></img>
             <div className="content">
@@ -62,11 +62,12 @@ const Noticias = () => {
                  <div className="info">
                     <a href="#">SAIBA MAIS</a>
                 </div> 
+            </div>       
+            </div>
+            
             </div>
             </div>
-
-            </div>
-            </div>
+            
             </div>
     )
 } 

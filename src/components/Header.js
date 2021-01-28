@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 
 import AdvLogo from "@assets/images/adv.svg";
 import Container from "@components/Container";
+import Menu from"@components/Menu";
+
 // import Menuzin from "@assets/images/bars-solid.svg";
 
 const Header = () =>{
+  const [show, setShow] = useState(false);
+  function openMenu () {
+    // menuToggle = () => {
+      if (!show) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+      // document.body.style.overflow = show ? "hidden" : "initial"
+     const menu = document.querySelector(".menu-section");
+
+     show ? menu.classList.add("on") : menu.classList.remove("on");
+      // menuSection.classList.toggle("on", show)
+  // }
+  }
   return(
     <header className="header">
       <Container >
@@ -13,26 +30,30 @@ const Header = () =>{
         {/* <div className="adv">
             <AdvLogo className="nav"/>
         </div> */}
-        {/* <div class="menu-section">
-          <div class="menu-toggle">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
-          </div> */}
-             
+        <div className="menu">
+      
+         <div className="menu-section">
+          <button type="button" className="menu-toggle" onClick = {()=> openMenu()}>
+            <div className="one"></div>
+            <div className="two"></div>
+            <div className="three"></div>
+            
+          </button> 
+          
+             <nav>                
                 <ul>
                <li>
                <Link to="/">INÍCIO</Link>
                </li>
 
                <li>
-               <Link to="/">QUEM SOMOS</Link>
+               <Link to="/">SOBRE</Link>
                </li>
 
                <li>
-               <Link to="/">ÁREA ATUAÇÃO</Link>
+               <Link to="/">ATUAÇÃO</Link>
                </li>
-
+  
                <li>
                <Link to="/">EQUIPE</Link>
                </li>
@@ -46,12 +67,10 @@ const Header = () =>{
                </li>
 
                </ul>
-             
-            {/* <div className="hamburguer">
-            <img src="assets/images/bars-solid.svg" alt="Menu"/>
-            </div> */}
+             </nav>
+             </div>
+            </div>
             
-        
           </Container>
      
       
@@ -61,7 +80,7 @@ const Header = () =>{
 
 };
 
-
+{/* <script src="Menu.js"></script> */}
 
 export default Header;
 

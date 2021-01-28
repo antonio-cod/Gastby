@@ -12,12 +12,12 @@ const Atuacao = () => {
           <p>Atualmente a Azevedo atua com estrutura física estratégica 
              na cidade de Tangará da Serra/MT, a fim de agregar eficiência e 
              otimizar os custos operacionais dos trabalhos desenvolvidos
-          </p>
+          </p>     
           <div className="atuacao-button ">
           <a href="#">AGRONEGÓCIO</a>
           <a href="#">EMPRESARIAL</a>
           <a href="#">SUCESSÕES</a>
-          </div>
+          </div> 
       </div>
             
     </div>

@@ -18,17 +18,18 @@ $m970px: "screen and (min-width : 970px)";
   /* @media #{$m970px} {} */
 
   .logo {
-    width: 400px;
+    width: 300px;
 
     @media screen and (max-width: 974px) {
-      width: 250px;
+      width: 150px;
     }
 
     @media screen and (max-width: 750px) {
-      width: 200px;
+      width: 100px;
     }
 
-    @media screen and (max-width: 580px) {
+    @media screen and (max-width: 600px) {
+      width: 50px;
       margin-left: 10px;
       margin-bottom: -20px;
     }
@@ -53,7 +54,7 @@ $m970px: "screen and (min-width : 970px)";
     // padding: 20px;
     // border-radius: 10px; 
 
-    @media screen and (max-width: 580px) {
+    @media screen and (max-width: 600px) {
       flex-direction: row;
       flex-wrap: wrap;
       padding: 10px;
@@ -63,20 +64,23 @@ $m970px: "screen and (min-width : 970px)";
   }
 
   li {
-    display: flex;
+    display: inline-block;
     align-items: center;
     width: 100%;
     flex: 1;
     font-family: "aileronsregular", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+  
 
-    @media screen and (max-width: 580px) {
-      width: 33.33%;
-      flex: none;
-    }
+    // @media screen and (max-width: 580px) {
+    //   width: 33.33%;
+    //   flex: none;
+    // }
 
     
   }
-
+ 
   a {
     text-align: center;
     display: block;
@@ -89,11 +93,11 @@ $m970px: "screen and (min-width : 970px)";
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.51);
     letter-spacing: -9px;
 
-    @media screen and (max-width: 974px) {
-      font-size: 1.7em;
-      letter-spacing: -8px;
-      padding: 0;
-    }
+    // @media screen and (max-width: 974px) {
+    //   font-size: 1.7em;
+    //   letter-spacing: -8px;
+    //   padding: 0;
+    // }
   }
 
   p {

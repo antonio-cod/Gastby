@@ -1,25 +1,20 @@
 
-.atuacao-header{
-    // margin: 30px; 
+.atuacao-header{ 
     margin: 80px;
     display: flex;
     width: 90%;
-     max-width: 980px;
+     max-width: 1200px;
     
 
 }
 .atuacao-header>img{
-    width: 50%;
-    margin: 15px;
-    padding: 15px;
+    width: 80%;
     
 }
 
 
 .textos-header{
     margin: 20px;
-    
-    // max-width: 980px;
     
 }
 
@@ -60,11 +55,13 @@
     .atuacao-header{
         flex-direction: column;
         justify-content: space-evenly;
-        height: 720px;
+        height: 520px;
+        display: center;
+        text-align: center;
     }
 
     .atuacao-header>img{
-        width: 700px;
+        width: 80%;
     }
 
     .textos-header {
