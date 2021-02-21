@@ -4,7 +4,7 @@ import facebookImg from "@assets/images/facebook.png";
 import instagramImg from "@assets/images/instagram.png";
 const Social = () => {
   return (
-    <div className="slider-social">
+    <div className="slider-social"> 
       {/* Instagram */}
       <a
         href="https://www.instagram.com/slsadvogadosassociados/"

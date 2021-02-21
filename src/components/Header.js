@@ -10,43 +10,37 @@ import Menu from"@components/Menu";
 const Header = () =>{
   const [show, setShow] = useState(false);
   function openMenu () {
-    // menuToggle = () => {
       if (!show) {
         setShow(true);
       } else {
         setShow(false);
       }
-      // document.body.style.overflow = show ? "hidden" : "initial"
      const menu = document.querySelector(".menu-section");
 
      show ? menu.classList.add("on") : menu.classList.remove("on");
-      // menuSection.classList.toggle("on", show)
-  // }
+     
   }
   return(
-    <header className="header">
-      <Container >
-         
+    <header className="header"> 
+      {/* <Container > */}
+            
         {/* <div className="adv">
             <AdvLogo className="nav"/>
-        </div> */}
+        </div> */} 
         <div className="menu">
-      
          <div className="menu-section">
           <button type="button" className="menu-toggle" onClick = {()=> openMenu()}>
             <div className="one"></div>
             <div className="two"></div>
             <div className="three"></div>
-            
           </button> 
-          
              <nav>                
-                <ul>
+                <ul>  
                <li>
                <Link to="/">INÍCIO</Link>
                </li>
 
-               <li>
+               <li>      
                <Link to="/">SOBRE</Link>
                </li>
 
@@ -66,12 +60,12 @@ const Header = () =>{
                <Link to="/">CONTATO</Link>
                </li>
 
-               </ul>
+               </ul> 
              </nav>
              </div>
             </div>
-            
-          </Container>
+                 
+          {/* </Container> */}
      
       
       </header>
@@ -79,8 +73,6 @@ const Header = () =>{
   );
 
 };
-
-{/* <script src="Menu.js"></script> */}
 
 export default Header;
 
