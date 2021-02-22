@@ -2,77 +2,67 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 
 import AdvLogo from "@assets/images/adv.svg";
-import Container from "@components/Container";
-import Menu from"@components/Menu";
+// import Container from "@components/Container";
+// import Menu from"@components/Menu";
 
-// import Menuzin from "@assets/images/bars-solid.svg";
-
-const Header = () =>{
-  const [show, setShow] = useState(false);
-  function openMenu () {
-      if (!show) {
-        setShow(true);
-      } else {
-        setShow(false);
-      }
-     const menu = document.querySelector(".menu-section");
-
-     show ? menu.classList.add("on") : menu.classList.remove("on");
-     
-  }
-  return(
-    <header className="header"> 
-      {/* <Container > */}
-            
-        {/* <div className="adv">
-            <AdvLogo className="nav"/>
-        </div> */} 
-        <div className="menu">
-         <div className="menu-section">
-          <button type="button" className="menu-toggle" onClick = {()=> openMenu()}>
-            <div className="one"></div>
-            <div className="two"></div>
-            <div className="three"></div>
-          </button> 
-             <nav>                
-                <ul>  
-               <li>
-               <Link to="/">INÍCIO</Link>
-               </li>
-
-               <li>      
-               <Link to="/">SOBRE</Link>
-               </li>
-
-               <li>
-               <Link to="/">ATUAÇÃO</Link>
-               </li>
-  
-               <li>
-               <Link to="/">EQUIPE</Link>
-               </li>
-
-               <li>
-               <Link to="/">NOTÍCIAS</Link>
-               </li>
-
-               <li>
-               <Link to="/">CONTATO</Link>
-               </li>
-
-               </ul> 
-             </nav>
-             </div>
-            </div>
-                 
-          {/* </Container> */}
-     
+function Header (){
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
       
+  return(  
+    <header className="header">   
+     <>
+        <nav className="navbar"> 
+        <div className="navbar-logo">
+           {/* <img src={AdvLogo} alt="LOGO"/>   */}
+        </div>
+        <div className="menu-icon" onClick={handleClick}
+        >    
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'}
+            />
+        </div>
+        <ul className={click ? 'nav-menu active' : 'nav-menu close'}>
+        <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}
+                >
+                    INICIO    
+                </Link>
+            </li>
+            <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}
+                >
+                    QUEM SOMOS
+                </Link>
+            </li>
+            <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                  ÁREAS DE ATUAÇÃO 
+                </Link>   
+            </li>
+            <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                  NOTÍCIAS
+                </Link>
+            </li>
+            <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                  EQUIPE
+                </Link>
+            </li>
+            <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}
+                >
+                    CONTATO
+                </Link>
+            </li>
+           </ul>
+      
+           </nav>
+        </>
       </header>
-      
-  );
-
-};
+     );
+  }
 
 export default Header;
 
