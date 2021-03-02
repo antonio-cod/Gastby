@@ -14,7 +14,7 @@ const Noticias = () => {
                 
             <div className="card">
                <img src={imageNot} alt="FOTO"></img>
-            <div className="content">
+            <div className="content">     
                 <h3>Twitter diz que vai recorrer de decisão do STF que 
                     bloqueou conta de bolsonaristas: 'Desproporcional sob 
                     a ótica do regime de liberdade de expressão'.</h3>

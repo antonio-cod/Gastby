@@ -1,18 +1,18 @@
 
-const Menu = (props)=>{
+// const Menu = (props)=>{
 
-let show = true; 
+// let show = true; 
    
-const menuSection = document.querySelector(".menu-section")
-const menuToggle = menuSection.querySelector(".menu-toggle")
+// const menuSection = document.querySelector(".menu-section")
+// const menuToggle = menuSection.querySelector(".menu-toggle")
 
-menuToggle.addEventListener("click", () => {
+// menuToggle.addEventListener("click", () => {
 
-    document.body.style.overflow = show ? "hidden" : "initial"
+//     document.body.style.overflow = show ? "hidden" : "initial"
 
-    menuSection.classList.toggle("on", show)
-    show = !show;
-})
-}
+//     menuSection.classList.toggle("on", show)
+//     show = !show;
+// })
+// }
   
-export default Menu;
+// export default Menu;

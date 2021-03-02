@@ -165,10 +165,11 @@
   transition: all 0.2s ease-out;
 }
 
-.fa-bars {
-  color: #fff;
+.FaTrain {
+  color: rgb(56, 23, 243);
+  background: red;
 }
-
+  
 .nav-links-mobile {
   display: none;
 }
@@ -222,7 +223,7 @@
     transform: translate(25%, 50%);
   }
 
-  .menu-icon {
+  .menu-icon img {
     display: block;
     position: absolute;
     top: 0;
@@ -232,7 +233,7 @@
     cursor: pointer;
   }
 
-  .fa-times {
+  .FaTimes {
     color: #fff;
     font-size: 2rem;
   }

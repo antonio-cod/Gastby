@@ -2,17 +2,17 @@ import React from "react";
 import Container from "./Container";
 
 const Equipe = () => {
-    return(
-        
+    return(  
+        <Container>
         <div className="equipe">
            <div className="equipe-ground">
            <h2>EQUIPE</h2>
-           <div className="equipe-card"> 
+           <div className="equipe-card">     
            
             <div class="equipe-informacao">
                 <h3>Dr. HERRIQUE DE SOUZA MENDONÇA</h3>
                 <p>OAB/MT 23.410</p>
-            </div>
+            </div>  
             
             <div className="equipe-informacao">
                 <h3>Dr. LETICIA LANCELOTTI FÁVERO</h3>
@@ -29,11 +29,11 @@ const Equipe = () => {
                 <h3>Dr. FLÁVIO DE AZEVEDO SILVA</h3>
                 <p>OAB/MT 26.444</p>
                 <a>Sócio/Diretor</a>
+            </div>   
             </div>
             </div>
             </div>
-            </div>
-
+            </Container>
     )
 } 
 
