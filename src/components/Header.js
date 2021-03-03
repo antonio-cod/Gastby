@@ -29,7 +29,13 @@ function Header (){
 
           }     */}
             {/* <img src= {FaTrain} alt="Logo"/>   */}
-            {/* fas fa-times : fas fa-bars - FaBars  / FaTimes */}
+           
+        {/*bkp-menu  */}
+            {/* <div className="menu-icon" onClick={handleClick}
+        >    
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'}
+            />
+        </div> */}
             
         </div>
         </div>  
