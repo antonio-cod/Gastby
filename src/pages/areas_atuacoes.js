@@ -71,10 +71,10 @@ export default () => {
               O corpo docente, programa acadêmico e apoios institucionais formam os principais pilares
               para o desenvolvimento dos cursos e treinamentos que o IBDA desenvolve, com conteúdo de grande profundidade, mas ao mesmo 
               tempo prático e aplicável às atividades de todos os operadores do Agronegócio.</p>
-            
+               
    <div id="direito-empresarial" className="titulo-titulo">  
    <span>DIREITO EMPRESARIAL</span>
-   </div>
+   </div>                  
        {/* Primeira parte do Texto */}
      <p>Toda entidade empresarial, grande ou pequena, precisa de do direito empresarial 
      e de um advogado que a represente. Afinal, embora seja uma
