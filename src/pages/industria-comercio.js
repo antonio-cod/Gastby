@@ -7,11 +7,11 @@ import Container from "@components/Container";
 
 export default () => {
   return (
-    <Layout pageName="industria-comercio">
+    <Layout pageName="industria-comercio">  
       <Helmet>
         <title>SLS Advogados - Indústria e Comércio - Preventivo/Contecioso</title>
       </Helmet>
-      <div className="areas industria-comercio">
+      <div className="areas industria-comercio">   
         <Container>
           <img src={industriaComercioImg} alt="Indústria e Comércio" />
           <p>

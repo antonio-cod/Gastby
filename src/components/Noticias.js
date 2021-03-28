@@ -4,7 +4,7 @@ import Container from "./Container";
 
 
 const Noticias = () => {
-    return(
+    return(   
         
         <div className="noticias">
            
@@ -12,12 +12,12 @@ const Noticias = () => {
           <h2>ÚLTIMAS NOTÍCIAS JURÍDICAS</h2>
           <div className="cards">
                 
-            <div className="card">
+            <div className="card">     
                <img src={imageNot} alt="FOTO"></img>
-            <div className="content">     
+            <div className="content">   
                 <h3>Twitter diz que vai recorrer de decisão do STF que 
                     bloqueou conta de bolsonaristas: 'Desproporcional sob 
-                    a ótica do regime de liberdade de expressão'.</h3>
+                    a ótica do regime de liberdade de expressão'.</h3>  
                     <p className="title-t text--medium">O Twitter afirmou em nota nesta quinta-feira (30) que irá 
                     recorrer da decisão do Supremo Tribunal Federal (STF) que 
                     bloqueou contas de bolsonaristas na rede social. "Embora não 
@@ -28,10 +28,10 @@ const Noticias = () => {
                     <div className="info">
                      <a  href="#">SAIBA MAIS</a>
                      </div>
-            </div> 
-            </div>   
+            </div>     
+            </div>       
                           
-            <div className="card">
+            <div className="card">     
                 <img src={imageNot} alt="FOTO"></img>
             <div className="content">
                 <h3>Ministro cobra informações de bancos oficiais e Secom sobre investimento em redes sociais.</h3>

@@ -7,17 +7,17 @@ const Atuacao = () => {
          <div className="atuacao-header">     
          <div className="container"> 
          <div>
-         <h2>ÁREAS DE ATUAÇÃO</h2>
+         <h2>ÁREAS DE ATUAÇÃO</h2>            
           <p>Atualmente a Azevedo atua com estrutura física estratégica 
              na cidade de Tangará da Serra/MT, a fim de agregar eficiência e 
              otimizar os custos operacionais dos trabalhos desenvolvidos
-          </p>        
-          <div className="atuacao-button "> 
+          </p>       
+          <div className="atuacao-button ">   
           <a href="#">AGRONEGÓCIO</a>
           <a href="#">EMPRESARIAL</a>  
           <a href="#">SUCESSÕES</a>   
           </div> 
-          </div>  
+          </div>                        
           <img src={imageCard} alt="Imagem"/>
       </div>
     </div>

@@ -7,9 +7,9 @@ import Office from "@components/Office";
 export default () => {
   return (
     <Layout pageName="business">
-      <Helmet>
+      <Helmet>  
         <title>SLS Advogados - A Empresa</title>
-      </Helmet>
+      </Helmet> 
       <Office />
     </Layout>
   );

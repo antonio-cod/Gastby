@@ -124,15 +124,21 @@
   display: flex;
   justify-content: center;
   font-size: 1.2rem;
+  
 }
+// .local-logo {
+//   display:block;
+//   margin-left: 30px;
+//   position: fixed;
+//   max-width: 250px;
+// }
+// .navbar-logo {
+  
+//   width: 100%;
+//   transform: translate(-155%, -35%);
+  
 
-.navbar-logo img{
-  justify-self: start;
-  margin-left: 20px;
-  width: 150px;
-  height: 150px;
-  position: relative;
-}
+// }
 
 .nav-menu {
   display: grid;
@@ -165,16 +171,11 @@
   transition: all 0.2s ease-out;
 }
 
-.FaTrain {
-  color: rgb(56, 23, 243);
-  background: red;
-}
-  
-.nav-links-mobile {
-  display: none;
-}
+  .menu-icon {
+    display: none;
+  }
 
-.menu-icon {
+.nav-links-mobile {
   display: none;
 }
 
@@ -202,6 +203,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    
   }
 
   .nav-links {
@@ -216,26 +218,19 @@
     border-radius: 0;
   }
 
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
-
-  .menu-icon img {
+  .menu-icon {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    transform: translate(-100%, 20%);
+    font-size: 2.8rem;
     cursor: pointer;
+    background: #292929d2;
+    height: 55px;
+    
   }
 
-  .FaTimes {
-    color: #fff;
-    font-size: 2rem;
-  }
-
+ 
+  
 }
