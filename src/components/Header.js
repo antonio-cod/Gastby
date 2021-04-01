@@ -8,24 +8,25 @@ import AdvLogo from "@assets/images/adv.svg";
     
 function Header (){
     const [click, setClick] = useState(false);  
-    const handleClick = () => setClick(!click);  
+    const handleClick = () => setClick(!click);    
     const closeMobileMenu = () => setClick(false);
       
   return(  
     <header className="header">         
      <>   
         <nav className="navbar">  
-               {/* <div className="local-logo">
-               <AdvLogo  className="navbar-logo"/>        
-               </div>   */}          
+                         
                                  
         {/*bkp-menu  */}      
            <div className="menu-icon" onClick={handleClick} >    
-            
+              
              {click ? <FaTimes/> : <FaBars/>}                       
           </div> 
        
         <ul className={click ? 'nav-menu active' : 'nav-menu close'}>
+        <li className="local-logo">
+                  <AdvLogo />           
+           </li>
         <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}
                 >
@@ -56,7 +57,7 @@ function Header (){
             <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}
                 >
-                    CONTATO
+                    CONTATO         
                 </Link>
             </li>
            </ul>
