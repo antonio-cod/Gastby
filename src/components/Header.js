@@ -15,33 +15,32 @@ function Header (){
     <header className="header">         
      <>   
         <nav className="navbar">  
-                         
-                                 
+                                                      
         {/*bkp-menu  */}      
            <div className="menu-icon" onClick={handleClick} >    
               
              {click ? <FaTimes/> : <FaBars/>}                       
           </div> 
        
-        <ul className={click ? 'nav-menu active' : 'nav-menu close'}>
-        <li className="local-logo">
-                  <AdvLogo />           
-           </li>
+        <ul className={click ? 'nav-menu active' : 'nav-menu close'}>  
+        <div className="local-logo">      
+                  <AdvLogo />              
+           </div>      
         <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}
                 >
-                    INICIO    
+                    INÍCIO           
                 </Link>
             </li> 
             <li className='nav-item'>
                 <Link to='/saude' className='nav-links' onClick={closeMobileMenu}  
                 >
-                    QUEM SOMOS  
+                   SOBRE         
                 </Link>
             </li>
             <li className='nav-item'>
                 <Link to='/areas_atuacoes' className='nav-links' onClick={closeMobileMenu}>
-                  ÁREAS DE ATUAÇÃO   
+                  ATUAÇÃO        
                 </Link>     
             </li>   
             <li className='nav-item'>
@@ -54,10 +53,10 @@ function Header (){
                   EQUIPE
                 </Link>
             </li>
-            <li className='nav-item'>
+            <li className='nav-item'>   
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}
                 >
-                    CONTATO         
+                    CONTATO           
                 </Link>
             </li>
            </ul>
