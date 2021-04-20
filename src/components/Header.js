@@ -5,7 +5,7 @@ import { FaTimes } from "react-icons/fa";
 import AdvLogo from "@assets/images/adv.svg";
 // import Container from "@components/Container";
 // import Menu from"@components/Menu";
-    
+     
 function Header (){
     const [click, setClick] = useState(false);  
     const handleClick = () => setClick(!click);    
@@ -29,7 +29,7 @@ function Header (){
         <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}
                 >
-                    INÍCIO           
+                    INÍCIO          
                 </Link>
             </li> 
             <li className='nav-item'>

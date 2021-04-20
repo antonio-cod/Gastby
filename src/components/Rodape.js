@@ -4,16 +4,22 @@ import Social from "./Social";
 import ImageADV1 from "@assets/images/adv_image_3.jpeg";
 import ImageADV2 from "@assets/images/adv_image_4.jpeg";
 import AdvLogo from "@assets/images/adv.svg";
+import { FaFacebook, FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 
 const Rodape = () =>{
 
  return (
-       
+           
  <div className="rodape"> 
    <footer>
           <div className="partFooter"> 
            <h4>REDES SOCIAIS</h4>
+           <div className="partFooterSocial">
+           <FaFacebook/>
+           <FaWhatsapp/>
+           <FaInstagram/>
+           </div>
            </div> 
          <div className="partFooter">
            <h4>ADVOGADO</h4>

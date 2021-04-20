@@ -32,18 +32,19 @@
     margin-bottom: 30px;
     display: center;
 }
-.svg{
+.partFooterSocial svg{
    
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     margin-top: 20px;
     line-height: 36px;
     display: inline-block;
     text-align: center;
     margin-right: 5px;
-  
-   
+    cursor: pointer;
+    color: #f1f4f7;
 }
+
 .partFooterImg img{
     font-size: 20px;
     color: #ffffff;
