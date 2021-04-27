@@ -16,7 +16,7 @@ const Equipe = () => {
             
             <div className="equipe-informacao">
                 <h3>Dr. LETICIA LANCELOTTI FÁVERO</h3>
-                <p>OAB/MT 25.904</p>
+                <p>OAB/MT 25.904</p>  
             </div>
             
             <div className="equipe-informacao">

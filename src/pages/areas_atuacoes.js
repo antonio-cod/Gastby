@@ -54,7 +54,7 @@ export default () => {
         <div id="direito-do-agronegócio" className="titulo-titulo">
                 <h1>AREAS DE ATUAÇÕES</h1>
                 <span>DIREITO DO AGRONEGÓCIO</span>
-            </div>
+            </div>       
             <div className="image-1"> 
             <FaPagelines /> 
              {/* Segunda Parte do Texto */}
