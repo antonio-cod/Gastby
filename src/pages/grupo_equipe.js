@@ -21,15 +21,15 @@ export default () => {
       <Helmet>
         <title>Azevedo - Equipe </title>
       </Helmet>
-      <div className="ultimas_noticias">  
+      <div className="grupo_equipe">  
         
-        <div className="estrutura">
+        <div className="estrutura">    
 
         <nav className="sidenav">                   
                 <ul> 
-                <li><a href="#direito-do-agronegócio">AGRONEGÓCIO </a></li>
-                <li><a href="#direito-empresarial">EMPRESARIAL </a></li>
-                <li><a href="#direito-em-sucessoes">SUCESSÕES </a></li>      
+                <li><a href="#direito-do-agronegócio">ATUAÇÃO </a></li>
+                <li><a href="#direito-empresarial">NOTÍCIAS</a></li>
+                <li><a href="#direito-em-sucessoes">CONTATO</a></li>      
                   
                 </ul>          
             </nav>

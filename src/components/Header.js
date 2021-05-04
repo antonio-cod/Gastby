@@ -49,15 +49,15 @@ function Header (){
                 </Link>  
             </li>
             <li className='nav-item'>
-                <Link to='/ultimas_noticias' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/grupo_equipe' className='nav-links' onClick={closeMobileMenu}>
                   EQUIPE
                 </Link>
             </li>
             <li className='nav-item'>   
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}
+                <Link to='/contato' className='nav-links' onClick={closeMobileMenu}
                 >
                     CONTATO           
-                </Link>
+                </Link> 
             </li>
            </ul>
       
