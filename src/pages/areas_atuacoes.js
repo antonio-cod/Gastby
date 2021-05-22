@@ -25,14 +25,14 @@ export default () => {
       <div className="areas_atuacoes">  
         
         <div className="estrutura">
-
-        <nav className="sidenav">               
+          
+        <nav className="sidenav">                 
                 <ul> 
-                <li><a href="#direito-do-agronegócio">AGRONEGÓCIO </a></li>
-                <li><a href="#direito-empresarial">EMPRESARIAL </a></li>
-                <li><a href="#direito-em-sucessoes">SUCESSÕES </a></li>     
+                <li><button href="#direito-do-agronegócio">AGRONEGÓCIO </button></li>
+                <li><button href="#direito-empresarial">EMPRESARIAL </button></li>
+                <li><button href="#direito-em-sucessoes">SUCESSÕES </button></li>     
                     {/* <li className='sidenav-item'>
-                    <Link to='/' className='nav-links'>
+                    <Link to='/' className='nav-links'>  
                     AGRONEGÓCIO 
                     </Link>  
                     </li>
@@ -61,7 +61,7 @@ export default () => {
             <p>O Instituto Brasileiro de Direito do Agronegócio (IBDA) nasceu da vocação de estudar o Direito e Economia da atividade agroindustrial,
              trazendo um novo modelo para o estudo, regulamentação e formulação de políticas públicas das atividades que formam o setor.</p>
                
-            </div>      
+            </div>                    
               
             <p>
                 {/* Primeira parte do Texto */}

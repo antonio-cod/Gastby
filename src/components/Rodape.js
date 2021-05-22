@@ -20,15 +20,15 @@ const Rodape = () =>{
            <FaWhatsapp/>
            <FaInstagram/>
            </div>
-           </div> 
+           </div>     
          <div className="partFooter">
            <h4>ADVOGADO</h4>
            <div className="partFooterImg">
                 <img src={ImageADV1} alt=""/>
                 <div>
-                <a href="#">Dr. Flávio Azevedo</a>
+                <a href="#">Dr. Flávio Azevedo</a>   
                 <div>
-                <span>Socio Diretor</span>
+                <p>Socio Diretor</p>
                 </div>
             </div>
             </div>
@@ -41,7 +41,7 @@ const Rodape = () =>{
            <div >
              <a href="#">Dr. Rafael Grilo</a>
              <div>
-                <span>Socio Diretor</span>
+                <p>Socio Diretor</p>
                 </div>
            </div>
            </div>

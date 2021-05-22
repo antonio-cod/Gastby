@@ -8,11 +8,12 @@ import imageImg3 from "@assets/images/3.jpg";
 
 
 
-const Areas = () => {
+const Areas = () => {  
   return (
-    
-       <div className="escritorio">    
-       <h2 className="titulo-geral">O ESCRITÓRIO</h2>
+                
+       <div className="escritorio">          
+       <h2> O ESCRITÓRIO </h2>  
+                  
         <div className="escritorio-areas">
         <div className="escritorio-marge">  
           <img src={imageImg1} alt="IMAGEM" /> 
@@ -20,9 +21,9 @@ const Areas = () => {
            <p>A Azevedo Advocacia tem se consolidado como
              um dos mais respeitados e reconhecidos 
              escritórios de advocacia do Brasil.
-           </p>  
-        </div>
-        </div>
+           </p>                    
+        </div>       
+        </div>         
         <div className="escritorio-areas">
        <div className="escritorio-marge">  
        <h3> ESTRUTURA FÍSICA E OPERACIONAL</h3>  

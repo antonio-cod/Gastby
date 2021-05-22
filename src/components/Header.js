@@ -10,7 +10,7 @@ function Header (){
     const [click, setClick] = useState(false);  
     const handleClick = () => setClick(!click);    
     const closeMobileMenu = () => setClick(false);
-      
+         
   return(  
     <header className="header">         
      <>   
@@ -45,7 +45,7 @@ function Header (){
             </li>   
             <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                  NOTÍCIAS     
+                  NOTÍCIAS        
                 </Link>  
             </li>
             <li className='nav-item'>
@@ -57,7 +57,7 @@ function Header (){
                 <Link to='/contato' className='nav-links' onClick={closeMobileMenu}
                 >
                     CONTATO           
-                </Link> 
+                </Link>        
             </li>
            </ul>
       

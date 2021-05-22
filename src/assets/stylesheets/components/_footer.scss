@@ -13,11 +13,12 @@ footer {
 
 footer{
   background: #000000;
+  border-top: 1px solid;
+  border-color:  rgba(226, 204, 81, 0.966);
   padding: 60px 0;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: auto;
-
 }

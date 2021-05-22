@@ -1,13 +1,25 @@
 .escritorio{
-    background: #e4dfdf;
+    background: #000000;
      display: center;
     text-align: center;
     
 }
 .escritorio h2 {
     font-size: 35px; 
-    margin-bottom: 50px;
+    color: rgba(226, 204, 81, 0.966);
+     text-align: center;
+     display:inline-block;
+    height: 80px;
+    border-bottom:solid rgba(226, 204, 81, 0.966);
+    border-bottom-width: 3px;
+    margin-bottom: 80px;
+    margin-top: 80px;  
   }
+
+// .escritorio-areas {
+//     margin-top: 20px;
+// }
+   
 .escritorio-areas img{
     display: block;
     max-width: 950px;
@@ -20,7 +32,7 @@
 .escritorio-marge{
     max-width: 950px;
    
-    border: 4px solid #ffffff;
+    border: 3px solid rgba(226, 204, 81, 0.966);
     display: inline-block;
     margin: 5px;
     // line-height: 36px;
@@ -29,12 +41,13 @@
 }
 .escritorio h3{
     font-size: 24px;
+    color: #fff;
     // margin-top: 30px ;
 }
 
 .escritorio p{
     font-weight: 100;
-    color: #000000;
+    color: #fff;
     // margin-top: 15px;
     // padding-bottom: 20px;
 }

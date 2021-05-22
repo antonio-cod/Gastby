@@ -14,23 +14,22 @@ export default () => {
   return (  
                   
     <Layout pageName="home">   
-          
+                          
       <Helmet>
         <title>Azevedo - Contato </title>  
       </Helmet>
       <div className="contato">  
-      <div className="titulo-titulo">
-      <h1>Entre em Contato</h1>
-      </div>
-          
+      <Container>
+      <div className="contato_titulo">    
+      <h2>ENTRE EM CONTATO</h2>    
+      </div>       
        <p>Para informações ou contato com nossos profissionais, utilize o formulário abaixo.</p>
-  
        <p>Nossa equipe de atendimento retornará a sua mensagem o mais breve possível.</p>
        <p>flavio@adv-azevedo.com.br</p>
-       </div>
-          <Contact />
-                       
-      
+       <Contact />
+       </Container>
+       </div>             
+          
     </Layout>
   );
 };

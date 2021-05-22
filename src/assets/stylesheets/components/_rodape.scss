@@ -1,11 +1,11 @@
 .partFooter{
     width: 20%;
     text-align: center;
-   
+    
 }
 
 .partFooter h4{
-    color: #ffffff;
+    color: #ffff;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -26,7 +26,14 @@
 }
 
 .partFooter span{
-    color: #ffffff;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: center;
+}
+.partFooter p {
+    color: rgba(226, 204, 81, 0.966);
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -42,7 +49,7 @@
     text-align: center;
     margin-right: 5px;
     cursor: pointer;
-    color: #f1f4f7;
+    color: #ffff;
 }
 
 .partFooterImg img{

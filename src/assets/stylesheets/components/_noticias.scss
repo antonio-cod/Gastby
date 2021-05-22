@@ -4,13 +4,27 @@
 // }
 .informacao h2 {
   font-size: 2.0rem;
-  text-align: center;
-  display: center;
   font-weight: bold;
-  height: 150px;
-  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  height: 100px;
+  margin-left: 32%;
+  margin-right: 32%;
+  color: rgba(226, 204, 81, 0.966);
+  // border-bottom:solid rgba(226, 204, 81, 0.966);
+  // border-bottom-width: 3px;
+  margin-bottom: 80px;
+  margin-top: 100px;
 }
- 
+ .informacao h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgba(226, 204, 81, 0.966);
+  margin-top: 10px;
+  // margin: 10px;
+  // display: center;
+  text-align: justify;
+ }
 .cards {
     width: 90%;
     max-width: 1200px;
@@ -26,11 +40,13 @@
   
     display: grid;
     flex-direction: column;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(0, 0, 0);
     // transition: 0.5s ;
     // margin: 10px;
     text-align: center;
     // padding: 10px;
+    border: 3px solid;
+    border-color: rgba(226, 204, 81, 0.966);
     
 }
 
@@ -55,7 +71,7 @@
   }
 
   .content {
-    margin: 10px;
+    margin-top: 10px;
     // display: center;
     text-align: justify;
     
@@ -63,44 +79,46 @@
   }
   
   .title-t {
-    margin-bottom: 20px;
+    margin-top: 0px;
     
   }
 
   .text--medium {
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    font-weight: 200;
-    color: #050505;
     
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    font-weight: 200;
+    color: #fff;
+    text-align: justify;
+    // margin-top: 40px;
   }  
   
-  .info {
-   position: absolute;
-   bottom: 0;
-   display: inline-block;
-   left: 35%;
-   margin: 10px;
+  .info footer {
    
+  //  bottom:0;
+  //  height: 10px;
+   max-width: 100%;
+  //  border-top: 3px solid;
+  //  border-color: rgba(226, 204, 81, 0.966);
   }
 
-  .content a{
-  margin: 5px;
-  // width: 130px;
-  // display: inline-block;
-  // text-align: center;
-  background: #0d0e0d;
-  color: #fff;
-  padding: 10px;
-  text-decoration: none;
-  // font-weight: 40;
-  // text-transform: uppercase;
-  font-size: 14px;
-   border-radius: 5px;
-   position: end;
-    bottom:0;    
+  .info button{
+    position: absolute;
+    margin-bottom: 0;
+       width: 130px;
+        // display: inline-block;
+        background:rgba(255, 255, 255, 0.014);
+        text-align:center;
+        color: rgba(226, 204, 81, 0.966);
+        padding: 12px;
+        border: 3px solid;
+        border-color: rgba(226, 204, 81, 0.966);    
+       
+        //     
   }
-.card a:hover{
-    color: #363636;
-    transition: color .5s;
+.info button:hover{
+  opacity: 0.9;
+  color: #fff;
+  background: rgba(226, 204, 81, 0.966);
+  transition: color .5s;
 }

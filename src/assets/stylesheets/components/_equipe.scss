@@ -10,8 +10,15 @@
 .equipe-ground h2 {
     font-size: 35px;
     text-align: center;
-    font-weight: bold;
-    height: 150px;
+    display:inline-block;
+    height: 80px;
+    font-size: 35px; 
+
+    color: rgba(226, 204, 81, 0.966);
+    border-bottom:solid rgba(226, 204, 81, 0.966);
+    border-bottom-width: 3px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 .equipe-card{
     display: flex;
@@ -50,6 +57,8 @@
     transition: all 0.3s ease 0s;
     flex: 1 300px;
     margin: 10px;
+    color: rgba(226, 204, 81, 0.966);
+    border: 3px solid rgba(226, 204, 81, 0.966);
 }
 
 .equipe-informacao:hover{
@@ -68,13 +77,13 @@
 .equipe-informacao>p{
     // background:  #3f3f3f;
     font-weight: 100;
-    color: #e40202;
+    color: #ffff;
     margin-top: 15px;
     padding-bottom: 20px;
 }
 
 .equipe-informacao>a{
-    color: #ffffff;
+    color: rgba(226, 204, 81, 0.966);
     font-weight: 400;
     text-decoration: none;
     margin: 10px;

@@ -5,10 +5,10 @@ import Layout from"@components/Layout";
 
 
 const Conteudo = () => {
-  return (
-    <div className="conteudo">
-        <Container >
-        <h2>QUEM SOMOS</h2>
+  return (   
+    <div className="conteudo">          
+        <Container > 
+        <h2>QUEM SOMOS</h2>  
         <p>     
         O Azevedo Advogados Associados é um escritório multidisciplinar e dispõe de uma infraestrutura completa 
         e moderna de atendimento aos seus clientes. Estrategicamente sediado em Tangará da Serra, Mato Grosso, o
@@ -22,8 +22,8 @@ const Conteudo = () => {
              de suas redes sociais e site.
        </p>
        <div className="text-center">
-       <a href="#">SAIBA MAIS</a>
-       </div>
+       <button href="#">SAIBA MAIS</button>                        
+       </div>           
         </Container>
         </div>   
        

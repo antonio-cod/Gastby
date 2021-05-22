@@ -4,10 +4,10 @@ import saudeImg from "@assets/images/saude.png";
 
 import Layout from "@components/Layout";
 import Container from "@components/Container";
-
+   
 export default () => {
   return (
-    <Layout pageName="home">
+    <Layout pageName="home">    
       <Helmet>
       <title>Azevedo - Quem Somos</title>
       </Helmet>
@@ -16,7 +16,7 @@ export default () => {
           {/* <img src={saudeImg} alt="Saúde" /> */}
     <div className="conteudo">
           <h2>ESCRITÓRIO</h2>
-          <p>O Azevedo Advogados Associados é um escritório multidisciplinar e dispõe de uma infraestrutura 
+          <p>A Azevedo Advogados Associados é um escritório multidisciplinar e dispõe de uma infraestrutura 
             completa e moderna de atendimento aos seus clientes. Estrategicamente sediado em Tangará da Serra,
              Mato Grosso, o escritório está localizado na região central da cidade, na Rua José Cândido 
              Melhorança, n° 275-N. O escritório Azevedo Advogados Associados destaca-se por sua atuação 
@@ -39,10 +39,10 @@ export default () => {
     <h2>VISÃO</h2>
     <p>Ser referência regional na prestação de serviços jurídicos especializados, participando ativamente do 
       desenvolvimento econômico e social da nossa região.
-    </p>
+    </p>     
 
   <h2>VALORES</h2>
-<p>Ética, lealdade e transparência.</p>
+<p className="linhaUnica">Ética, lealdade e transparência.</p>
 
   <h2>ATUAÇÃO</h2>
   <p>O escritório Azevedo Advogados Associados orienta seus clientes a evitar a esfera judicial, quando constata

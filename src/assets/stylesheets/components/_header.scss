@@ -117,7 +117,8 @@
 //   }
 // }
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: #000000;
+  // background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(26, 23, 23) 100%);
   height: 100px;
   width: 100%;
   display: flex;
@@ -166,9 +167,11 @@
 }
 
 .nav-links:hover {
-  background-color: #565758;
-  border-radius: 4px;
+  background-color: #f5f6f800;
   transition: all 0.2s ease-out;
+  color:#fff;
+  border-bottom: 3px solid;
+  border-color: rgba(226, 204, 81, 0.966);
 }
 
   .menu-icon {
@@ -198,7 +201,7 @@
     display: block;
     text-align: center;
     // position: absolute;
-    background: #242222;
+    background: #000000;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -224,8 +227,13 @@ max-width: 950px;
   
 }
   .nav-links:hover {
-    background-color: #717172;
-    border-radius: 0;
+    transition: all 0.5s ease-out;
+    color:#fff;
+    background-color: #000000;
+    border-bottom: 3px solid;
+    border-color: rgba(226, 204, 81, 0.966);
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .menu-icon {
@@ -238,6 +246,7 @@ max-width: 950px;
     cursor: pointer;
     background: #292929d2;
     height: 35px;
+    color: rgba(226, 204, 81, 0.966);
     
   }
 
